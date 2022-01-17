@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+  <style>
+    .dropdown-toggle-none::after {
+        content: none;
+    }
+</style>
+</head>
+<body class="body">
+  <nav class="navbar navbar-expand navbar-light bg-white border-bottom">
+    <div class="container-fluid d-flex align-items-end ">
+      <div class="m-2">
+        <img src="./img/Logo.png" style="width: 3rem " alt="">
+
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 col-md-4">
+          <li class="nav-item">
+            <div class="d-flex flex-column align-items-center">
+              <img src="./img/rss.png" class=""  alt="...">
+              <a class="nav-link active dropdown-toggle-none navbar-p fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              FEED
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item navbar-p" href="#">Action</a></li>
+              <li><a class="dropdown-item navbar-p" href="#">Another action</a></li>
+              <li><a class="dropdown-item navbar-p" href="#">Something else here</a></li>
+            </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex flex-column align-items-center">
+              <img src="users.png" class=""  alt="...">
+              <a class="nav-link navbar-p fw-bold" href="#">NETWORK</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <div class="d-flex flex-column align-items-center">
+              <img src="./img/briefcase.png" class=""  alt="...">
+              <a class="nav-link navbar-p fw-bold" href="#">JOBS</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex flex-column align-items-center mt-1">
+              <img src="./img/Vector.png" class=""  alt="...">
+              <a class="nav-link navbar-p fw-bold" href="#">
+                CHAT
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex flex-column align-items-center">
+              <img src="./img/bell.png" class=""  alt="...">
+              <a class="nav-link navbar-p fw-bold" href="#">NOTICES</a>
+            </div>
+          </li>
+        </ul>
+        <form class="d-flex col-md-3 ">
+          <button class="btn p-0 border-0 h-1" type="submit">
+            <img src="./img/search.png" class=""  style="height: 24px;">
+          </button>
+          <input class="form-control me-2 border-white navbar-p " style="color: #747474" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <div class="col-md-3">
+          <div class="container">
+            <div class="row">
+            <img src="./img/Rectangle.png" class="col-md-2 d-block m-2"  alt="...">
+            <div class="col-sm-8">
+              <p class="navbar-p fw-bold m-0">İsim Soyisim</p>
+              <p class="navbar-p m-0" style="color: #747474">367 views today</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="nav-item dropdown col-md-1">
+            <div class="d-flex flex-column align-items-center">
+              <img src="./img/more-horizontal.png" class=""  alt="...">
+              <a class="nav-link dropdown-toggle-none navbar-p fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">OTHER</a>
+            </div>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid mt-5">
+    <div class="row d-flex justify-content-center">
+      <div id="ana" class="col-md-7 col-sm-12 col-12">
+        <div class="bg-white mb-3" >
+          <div class="position-relative w-100">
+            <div class="position-absolute top-0 end-0">
+              <button type="button" class="btn btn-light mt-2 me-2">EDIT PROFILE</button>
+              <button type="button" class="btn btn-light mt-2 me-2">...</button>
+            </div>
+          </div>
+          <img src="./img/banner.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex">
+            <div class="position-relative w-25">
+              <div class="position-absolute top-0 start-50 translate-middle">
+                <img src="./img/Ellipse.png" alt="">
+              </div>
+            </div>
+            <div class="ms-3">
+              <h5 class="card-title">Dmitry Kargaev</h5>
+            <p class="card-text">Freelance UX/UI designer, 80+ projects in web design, mobile apps  (iOS & android) and creative projects. Open to offers.</p>
+            <button type="button" class="btn btn-primary">QUESTIONS</button>
+            <button type="button" class="btn btn-otline-primary">QUESTIONS</button>
+            </div>
+            
+          </div>
+        </div>
+
+        <ul class="nav nav-tabs d-flex align-items-end">
+          <li class="nav-item rounded-top">
+            <a class="nav-link active fw-bold" aria-current="page" href="#">PROFILE</a>
+          </li>
+          <li class="nav-item rounded-top">
+            <a class="nav-link fw-bold" href="#">ACTIVITY & INTERESTS</a>
+          </li>
+          <li class="nav-item rounded-top">
+            <a class="nav-link fw-bold" href="#">ARTICLES</a>
+          </li>
+        </ul>
+        <!-- elementler arası gap-->
+        <div class="d-grid gap-3 mt-3">
+          <div class="card p-2 border p-4">
+            <p class="h4">About</p>
+            <p>I'm more experienced in eCommerce web projects and mobile banking apps, but also like to work with creative projects, such as landing pages or unusual corporate websites. </p>
+            <div class="collapse" id="collapseExample">
+              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+              <p class="m-0">
+                <a class="h6 text-decoration-none primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  SEE MORE
+                </a>
+              </p>
+          </div>
+          <div class="card p-2 border p-4">
+            <p class="h4">Projects</p>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex">
+                    <div class="m-3" >
+                      <img src="./img/ext.png" class="card-img-top" alt="...">
+                      <div class="mt-3">
+                        <h5>Card title</h5>
+                        <p>UX/UI design, 15.07.2019</p>
+                      </div>
+                    </div>
+                    <div class="m-3" >
+                      <img src="./img/ext (1).png" class="card-img-top" alt="...">
+                      <div class="mt-3">
+                        <h5>Card title</h5>
+                        <p class="fs-6">UX/UI design, 15.07.2019</p>
+                      </div>
+                    </div>
+                    <div class="m-3" >
+                      <img src="./img/ext (2).png" class="card-img-top" alt="...">
+                      <div class="mt-3">
+                        <h5>Card title</h5>
+                        <p>UX/UI design, 15.07.2019</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex">
+                    <div class="m-3" >
+                      <img src="./img/ext.png" class="card-img-top" alt="...">
+                      <div class="mt-3">
+                        <h5>Card title</h5>
+                        <p>UX/UI design, 15.07.2019</p>
+                      </div>
+                    </div>
+                    <div class="m-3" >
+                      <img src="./img/ext (1).png" class="card-img-top" alt="...">
+                      <div class="mt-3">
+                        <h5>Card title</h5>
+                        <p class="fs-6">UX/UI design, 15.07.2019</p>
+                      </div>
+                    </div>
+                    <div class="m-3" >
+                      <img src="./img/ext (2).png" class="card-img-top" alt="...">
+                      <div class="mt-3">
+                        <h5>Card title</h5>
+                        <p>UX/UI design, 15.07.2019</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex">
+                    <div class="m-3" >
+                      <img src="./img/ext.png" class="card-img-top" alt="...">
+                      <div class="mt-3">
+                        <h5>Card title</h5>
+                        <p>UX/UI design, 15.07.2019</p>
+                      </div>
+                    </div>
+                    <div class="m-3" >
+                      <img src="./img/ext (1).png" class="card-img-top" alt="...">
+                      <div class="mt-3">
+                        <h5>Card title</h5>
+                        <p class="fs-6">UX/UI design, 15.07.2019</p>
+                      </div>
+                    </div>
+                    <div class="m-3" >
+                      <img src="./img/ext (2).png" class="card-img-top" alt="...">
+                      <div class="mt-3">
+                        <h5>Card title</h5>
+                        <p>UX/UI design, 15.07.2019</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-icons" style="margin-bottom: 7rem;">&#60;</span>
+                <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-icons" style="margin-bottom: 7rem;">&#62;</span>
+                <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <a class="primary h6 text-decoration-none">SHOW ALL(12)</a>
+          </div>
+          <div class="card p-2 border p-4">
+            <p class="h4">Skills & Endoresments</p>
+            <div class="container justify-content-evenly pt-2">
+              <div class="row gx-2">
+                <div class="col-md-4">
+                  <div class="container p-2 border rounded-3">
+                    <div class="row">
+                      <h6 class="col-md-10">User Experience (UX)</h6>
+                      <p class="h6 text-primary col-md-2">7</p>
+                    </div>
+                    <img src="./img/users (1).png">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="container p-2 border rounded-3">
+                    <div class="row">
+                      <h6 class="col-md-10">User Interface (UI)</h6>
+                      <p class="h6 text-primary col-md-2">7</p>
+                    </div>
+                    <img src="./img/users (1).png">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="container p-2 border rounded-3">
+                    <div class="row">
+                      <h6 class="col-md-10">Brand Identity</h6>
+                      <p class="h6 text-primary col-md-2">7</p>
+                    </div>
+                    <img src="./img/users (1).png">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h6 class="mt-3 text-primary">SHOW ALL (17)</h6>
+          </div>
+          <div class="card p-2 border p-4">
+            <p class="h4">Experience</p>
+            <div class="d-flex mt-3">
+              <div class="d-flex flex-column align-items-start p-2">
+                <img src="./img/Group.png" alt="">
+              </div>
+              <div class="d-flex flex-column align-items-start p-2"> 
+                <h6>Freelance UX/UI designer</h6>
+                <div class="d-flex ">
+                  <p>Self Employed</p>
+                  <p style="font-weight: 200; padding-left: 1.5rem;">Around the World</p>
+                </div>
+                <div class="d-flex ">
+                  <p style="font-weight: 200;">Jun 2016 — Present</p>
+                  <p class="h6 text-primary ps-3">3 yrs 3 mos</p>
+                </div>
+                <p>Work with clients and web studios as freelancer.  Work in next areas: eCommerce web projects; creative landing pages; iOs and Android apps; corporate web sites and corporate identity sometimes.</p>
+              </div>
+            </div>
+            <hr class="border">
+            <div class="d-flex mt-3">
+              <div class="d-flex flex-column align-items-start p-2">
+                <img src="./img/Group (1).png" alt="">
+              </div>
+              <div class="d-flex flex-column align-items-start p-2"> 
+                <h6>UX/UI designer</h6>
+                <div class="d-flex ">
+                  <p>Upwork</p>
+                  <p style="font-weight: 200; padding-left: 1.5rem;">International</p>
+                </div>
+                <div class="d-flex ">
+                  <p style="font-weight: 200;">Jun 2019 — Present</p>
+                  <p class="h6 text-primary ps-3">3 mos</p>
+                </div>
+                <p>New experience with Upwork system. Work in next areas: UX/UI design, graphic design, interaction design, UX research.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card p-2 border p-4">
+            <p class="h4">Education</p>
+            <div class="d-flex mt-3">
+              <div class="d-flex flex-column align-items-start p-2">
+                <img src="./img/unilogo.png" alt="">
+              </div>
+              <div class="d-flex flex-column align-items-start p-2"> 
+                <h6>Moscow State Linguistic University</h6>
+                <p>Bachelor's degree Field Of StudyComputer and Information Systems Security/Information Assurance</p>
+                <p style="font-weight: 200;">Jun 2016 — Present</p>
+                <p>Additional English classes and UX profile courses​.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="yan" class="col-md-3 col-sm-12 col-12">
+        <div class="d-grid gap-3">
+          <div class="p-2 bg-white border rounded-3 d-flex flex-column p-5">
+            <div class="d-flex justify-content-between">
+              <h6>YOUR DASHBOARD</h6>
+              <a href="#" class="h6 text-primary text-decoration-underline">GO TO STATS</a>
+            </div>
+            <hr class="border">
+            <div class="d-flex flex-column">
+              <div class="d-flex flex-column">
+                <h1 class="text-primary">367</h1>
+                <p>views today</p>
+              </div>
+              <div class="d-flex flex-column">
+                <h1 class="text-primary">15</h1>
+                <p>Post views </p>
+              </div>
+              <div class="d-flex flex-column">
+                <h1 class="text-primary">9</h1>
+                <p>Search Appereances</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 bg-white border rounded-3 d-flex flex-column p-5">
+            <div class="d-flex justify-content-between">
+              <h6>VISITORS</h6>
+              <a href="#" class="h6 text-primary">VIEW ALL</a>
+            </div>
+            <hr class="border">
+            <div class="d-flex mt-2">
+              <img src="./img/avatar.png" alt="">
+              <div class="d-flex flex-column">
+                <h6>Darlene Black</h6>
+                <p>HR-manager, 10 000 connec...</p>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <img src="./img/avatar.png" alt="">
+              <div class="d-flex flex-column">
+                <h6>Darlene Black</h6>
+                <p>HR-manager, 10 000 connec...</p>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <img src="./img/avatar.png" alt="">
+              <div class="d-flex flex-column">
+                <h6>Darlene Black</h6>
+                <p>HR-manager, 10 000 connec...</p>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <img src="./img/avatar.png" alt="">
+              <div class="d-flex flex-column">
+                <h6>Darlene Black</h6>
+                <p>HR-manager, 10 000 connec...</p>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <img src="./img/avatar.png" alt="">
+              <div class="d-flex flex-column">
+                <h6>Darlene Black</h6>
+                <p>HR-manager, 10 000 connec...</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 bg-white border rounded-3 d-flex flex-column p-5">
+            <h6 class="text-primary">YOU MAY ALSO LIKE THIS COURSES</h6>
+            <hr class="border">
+            <div class="d-flex mt-2">
+              <img src="./img/thumb.png" alt="">
+              <div class="d-flex flex-column">
+                <h6>UX Foundations: Prototyping</h6>
+                <p>27,959 viewers</p>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <img src="./img/thumb.png" alt="">
+              <div class="d-flex flex-column">
+                <h6>UX Foundations: Prototyping</h6>
+                <p>27,959 viewers</p>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <img src="./img/thumb.png" alt="">
+              <div class="d-flex flex-column">
+                <h6>UX Foundations: Prototyping</h6>
+                <p>27,959 viewers</p>
+              </div>
+            </div>
+            <a href="#" class="h6 text-primary">SEE ALL RECOMMENDATIONS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="border p-5 m-3">
+    <div class="container ">
+      <div class="row">
+        <div class="col d-flex flex-column justify-content-start">
+              <img src="./img/Logo.png" style="width: 2rem" alt="">
+              <img src="./img/LinkedIn.png" class="mt-3" style="width: 6rem" alt="">
+        </div>
+        <div class="col-md-6">
+          <div class="container">
+            <div class="row">
+              <h6>Navigation</h6>
+            </div>
+            <div class="row">
+              <div class="h5"><p></p></div>
+            </div>
+            <div class="row">
+              <p class="col">About</p>
+              <p class="col">Talent Solutions</p>
+              <p class="col">Community Guidelines</p>
+            </div>
+            <div class="row">
+              <p class="col">Careers</p>
+              <p class="col">Marketing Solutions</p>
+              <p class="col">Privacy & Terms</p>
+            </div>
+            <div class="row">
+              <p class="col">Advertising</p>
+              <p class="col">Sales Solutions</p>
+              <p class="col">Mobile App</p>
+            </div>
+            <div class="row">
+              <p class="col">Small Bussinesess</p>
+              <p class="col">Safety Center</p>
+              <p class="col"></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="container d-grid gap-2">
+            <div class="row ">
+              <h6>Fast Access </h6>
+            </div>
+            <div class="row">
+              <div class="h5"><p></p></div>
+            </div>
+            <div class="row">
+              <button type="button" class="btn btn-primary">QUESTIONS</button>
+            </div>
+            <div class="row">
+              <button type="button" class="btn btn-outline-primary">SETTINGS</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="container d-grid gap-2">
+            <div class="row ">
+              <h6>Language </h6>
+            </div>
+            <div class="row">
+              <div class="h5"><p></p></div>
+            </div>
+            <div class="row">
+              <div class="dropdown">
+                <button class="btn bg-white dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  ENGLISH
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">TÜRKÇE</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
